@@ -1,5 +1,5 @@
 # 🗓️ August 18, 2025 – Kali VM Update & Linux Learning Progress
-
+# Duration : 2.5 hours
 ## System Update
 
 Today I am updating my Kali Linux virtual machine in VirtualBox.  
