@@ -1,0 +1,62 @@
+Script started on 2025-08-22 15:28:23-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="77" LINES="28"]
+                                                                             ]0;kaliuser@Kali-Linux: ~/vm_logs[0m[27m[24m[J[32m┌──([1m[32m[34mkaliuser㉿Kali-Linux[0m[34m[32m)-[[1m[32m[39m~/vm_logs[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hcd ~/vm_logs_repo
+[K[A[4C[36mc[36md[39m[1B[K[?1l>[?2004l
+cd: no such file or directory: /home/kaliuser/vm_logs_repo
+                                                                             ]0;kaliuser@Kali-Linux: ~/vm_logs
+[0m[27m[24m[J[32m┌──([1m[32m[34mkaliuser㉿Kali-Linux[0m[34m[32m)-[[1m[32m[39m~/vm_logs[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hcd ~
+git clone https://github.com/YOURUSERNAME/YOURREPO.git ~/vm_logs_repo[K
+[K[A[A[4C[36mc[36md[39m [1m~[0m[1B[36mg[36mi[36mt[39m[1B[K[A[69C[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20D[P[19C [20Df.git ~/vm_logs_repo[19De.git ~/vm_logs_repo[19Ds.git ~/vm_logs_repo[19Dt.git ~/vm_logs_repo[19Da.git ~/vm_logs_repo[19Dn.git ~/vm_logs_repo[19Dd.git ~/vm_logs_repo[19Dr.git ~/vm_logs_repo[19De.git ~/vm_logs_repo[19Dw.git ~/vm_logs_repo[19D3.git ~/vm_logs_repo[19D1.git ~/vm_logs_repo[19D@.git ~/vm_logs_repo[19D[P[19C [20D-.git ~/vm_logs_repo[19Du.git ~/vm_logs_repo[19Dx.git ~/vm_logs_repo[19D/.git ~/vm_logs_repo[19Dt.git ~/vm_logs_repo[19Du.git ~/vm_logs_repo[19Dr.git ~/vm_logs_repo[19Db.git ~/vm_logs_repo[19Do.git ~/vm_logs_repo[19D-.git ~/vm_logs_repo[19Dc.git ~/vm_logs_repo[19Dh.git ~/vm_logs_repo[19Da.git ~/vm_logs_repo[19Di.git ~/vm_logs_repo[19Dn.git ~/vm_logs_repo[19Ds.git ~/vm_logs_repo[19Da.git ~/vm_logs_repo 
+[K[A[A[58C[2B[K[A[A[58Cw.git ~/vm_logs_repo[A[58C[?1l>[?2004l[2B
+Cloning into '/home/kaliuser/vm_logs_repo'...
+remote: Enumerating objects: 46, done.[K
+remote: Counting objects:   2% (1/46)[Kremote: Counting objects:   4% (2/46)[Kremote: Counting objects:   6% (3/46)[Kremote: Counting objects:   8% (4/46)[Kremote: Counting objects:  10% (5/46)[Kremote: Counting objects:  13% (6/46)[Kremote: Counting objects:  15% (7/46)[Kremote: Counting objects:  17% (8/46)[Kremote: Counting objects:  19% (9/46)[Kremote: Counting objects:  21% (10/46)[Kremote: Counting objects:  23% (11/46)[Kremote: Counting objects:  26% (12/46)[Kremote: Counting objects:  28% (13/46)[Kremote: Counting objects:  30% (14/46)[Kremote: Counting objects:  32% (15/46)[Kremote: Counting objects:  34% (16/46)[Kremote: Counting objects:  36% (17/46)[Kremote: Counting objects:  39% (18/46)[Kremote: Counting objects:  41% (19/46)[Kremote: Counting objects:  43% (20/46)[Kremote: Counting objects:  45% (21/46)[Kremote: Counting objects:  47% (22/46)[Kremote: Counting objects:  50% (23/46)[Kremote: Counting objects:  52% (24/46)[Kremote: Counting objects:  54% (25/46)[Kremote: Counting objects:  56% (26/46)[Kremote: Counting objects:  58% (27/46)[Kremote: Counting objects:  60% (28/46)[Kremote: Counting objects:  63% (29/46)[Kremote: Counting objects:  65% (30/46)[Kremote: Counting objects:  67% (31/46)[Kremote: Counting objects:  69% (32/46)[Kremote: Counting objects:  71% (33/46)[Kremote: Counting objects:  73% (34/46)[Kremote: Counting objects:  76% (35/46)[Kremote: Counting objects:  78% (36/46)[Kremote: Counting objects:  80% (37/46)[Kremote: Counting objects:  82% (38/46)[Kremote: Counting objects:  84% (39/46)[Kremote: Counting objects:  86% (40/46)[Kremote: Counting objects:  89% (41/46)[Kremote: Counting objects:  91% (42/46)[Kremote: Counting objects:  93% (43/46)[Kremote: Counting objects:  95% (44/46)[Kremote: Counting objects:  97% (45/46)[Kremote: Counting objects: 100% (46/46)[Kremote: Counting objects: 100% (46/46), done.[K
+remote: Compressing objects:   2% (1/35)[Kremote: Compressing objects:   5% (2/35)[Kremote: Compressing objects:   8% (3/35)[Kremote: Compressing objects:  11% (4/35)[Kremote: Compressing objects:  14% (5/35)[Kremote: Compressing objects:  17% (6/35)[Kremote: Compressing objects:  20% (7/35)[Kremote: Compressing objects:  22% (8/35)[Kremote: Compressing objects:  25% (9/35)[Kremote: Compressing objects:  28% (10/35)[Kremote: Compressing objects:  31% (11/35)[Kremote: Compressing objects:  34% (12/35)[Kremote: Compressing objects:  37% (13/35)[Kremote: Compressing objects:  40% (14/35)[Kremote: Compressing objects:  42% (15/35)[Kremote: Compressing objects:  45% (16/35)[Kremote: Compressing objects:  48% (17/35)[Kremote: Compressing objects:  51% (18/35)[Kremote: Compressing objects:  54% (19/35)[Kremote: Compressing objects:  57% (20/35)[Kremote: Compressing objects:  60% (21/35)[Kremote: Compressing objects:  62% (22/35)[Kremote: Compressing objects:  65% (23/35)[Kremote: Compressing objects:  68% (24/35)[Kremote: Compressing objects:  71% (25/35)[Kremote: Compressing objects:  74% (26/35)[Kremote: Compressing objects:  77% (27/35)[Kremote: Compressing objects:  80% (28/35)[Kremote: Compressing objects:  82% (29/35)[Kremote: Compressing objects:  85% (30/35)[Kremote: Compressing objects:  88% (31/35)[Kremote: Compressing objects:  91% (32/35)[Kremote: Compressing objects:  94% (33/35)[Kremote: Compressing objects:  97% (34/35)[Kremote: Compressing objects: 100% (35/35)[Kremote: Compressing objects: 100% (35/35), done.[K
+Receiving objects:   2% (1/46)Receiving objects:   4% (2/46)Receiving objects:   6% (3/46)Receiving objects:   8% (4/46)Receiving objects:  10% (5/46)Receiving objects:  13% (6/46)Receiving objects:  15% (7/46)Receiving objects:  17% (8/46)Receiving objects:  19% (9/46)Receiving objects:  21% (10/46)Receiving objects:  23% (11/46)Receiving objects:  26% (12/46)Receiving objects:  28% (13/46)Receiving objects:  30% (14/46)Receiving objects:  32% (15/46)Receiving objects:  34% (16/46)Receiving objects:  36% (17/46)Receiving objects:  39% (18/46)Receiving objects:  41% (19/46)Receiving objects:  43% (20/46)Receiving objects:  45% (21/46)Receiving objects:  47% (22/46)Receiving objects:  50% (23/46)Receiving objects:  52% (24/46)Receiving objects:  54% (25/46)Receiving objects:  56% (26/46)Receiving objects:  58% (27/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  60% (28/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  63% (29/46), 60.00 KiB | 101.00 KiB/sremote: Total 46 (delta 14), reused 19 (delta 8), pack-reused 0 (from 0)[K
+Receiving objects:  65% (30/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  67% (31/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  69% (32/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  71% (33/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  73% (34/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  76% (35/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  78% (36/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  80% (37/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  82% (38/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  84% (39/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  86% (40/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  89% (41/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  91% (42/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  93% (43/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  95% (44/46), 60.00 KiB | 101.00 KiB/sReceiving objects:  97% (45/46), 60.00 KiB | 101.00 KiB/sReceiving objects: 100% (46/46), 60.00 KiB | 101.00 KiB/sReceiving objects: 100% (46/46), 77.03 KiB | 141.00 KiB/s, done.
+Resolving deltas:   0% (0/14)Resolving deltas:   7% (1/14)Resolving deltas:  14% (2/14)Resolving deltas:  21% (3/14)Resolving deltas:  28% (4/14)Resolving deltas:  35% (5/14)Resolving deltas:  42% (6/14)Resolving deltas:  50% (7/14)Resolving deltas:  57% (8/14)Resolving deltas:  64% (9/14)Resolving deltas:  71% (10/14)Resolving deltas:  78% (11/14)Resolving deltas:  85% (12/14)Resolving deltas:  92% (13/14)Resolving deltas: 100% (14/14)Resolving deltas: 100% (14/14), done.
+                                                                             ]0;kaliuser@Kali-Linux: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mkaliuser㉿Kali-Linux[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hcd ~/vm_logs_repo
+[K[A[4C[36mc[36md[39m [1m~[1m/[1mv[1mm[1m_[1ml[1mo[1mg[1ms[1m_[1mr[1me[1mp[1mo[0m[1B[K[?1l>[?2004l
+                                                                             ]0;kaliuser@Kali-Linux: ~/vm_logs_repo
+[0m[27m[24m[J[32m┌──([1m[32m[34mkaliuser㉿Kali-Linux[0m[34m[32m)-[[1m[32m[39m~/vm_logs_repo[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h/home/kaliuser/vm_logs_repo
+[K[A[4C[4m[32m/[4m[32mh[4m[32mo[4m[32mm[4m[32me[4m[32m/[4m[32mk[4m[32ma[4m[32ml[4m[32mi[4m[32mu[4m[32ms[4m[32me[4m[32mr[4m[32m/[4m[32mv[4m[32mm[4m[32m_[4m[32ml[4m[32mo[4m[32mg[4m[32ms[4m[32m_[4m[32mr[4m[32me[4m[32mp[4m[32mo[24m[39m[1B[K[?1l>[?2004l
+                                                                             ]0;kaliuser@Kali-Linux: ~/vm_logs_repo
+[0m[27m[24m[J[32m┌──([1m[32m[34mkaliuser㉿Kali-Linux[0m[34m[32m)-[[1m[32m[39m~/vm_logs_repo[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hl[36ml[39m[36ml[39m[38;2;153;153;153ms -a[39m[36ml[36ms[39m[36ml[36ms[36m [39m[36ml[36ms[39m[39m [39m-[32m-[39m[32m-[32ma[39m[?1l>[?2004l
+[0m[01;34m.[0m
+[01;34m..[0m
+2025-08-11-daily-cybersecurity-practice_Version2.md
+2025-08-12-daily-cybersecurity-practice_Version2.md
+2025-08-13-daily-cybersecurity-practice_Version2.md
+2025-08-14-daily-cybersecurity-practice_Version2.md
+2025-08-15-daily-log_Version4.md
+2025-08-18-kali-update-log.md
+2025-08-20-kali-git-setup.md
+[01;34m.git[0m
+LICENSE
+README.md
+SSH_key_ubuntu_github
+ubuntu_full_setup.log
+ubuntu_full_setup.md
+[01;34mweek1[0m
+                                                                             ]0;kaliuser@Kali-Linux: ~/vm_logs_repo
+[0m[27m[24m[J[32m┌──([1m[32m[34mkaliuser㉿Kali-Linux[0m[34m[32m)-[[1m[32m[39m~/vm_logs_repo[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hecho '```bash' > kali_full_setup.md
+cat ~/kali_full_setup.log >> kali_full_setup.md[K
+echo '```' >> kali_full_setup.md[K
+[K[3A[4C[36me[36mc[36mh[36mo[39m [33m'[33m`[33m`[33m`[33mb[33ma[33ms[33mh[33m'[39m [1m[34m>[0m[39m[1B[36mc[36ma[36mt[39m[23C[1m[34m>[1m[34m>[0m[39m[1B[36me[36mc[36mh[36mo[39m [33m'[33m`[33m`[33m`[33m'[39m [1m[34m>[1m[34m>[0m[39m[1B[K[?1l>[?2004l
+cat: /home/kaliuser/kali_full_setup.log: No such file or directory
+                                                                             ]0;kaliuser@Kali-Linux: ~/vm_logs_repo
+[0m[27m[24m[J[32m┌──([1m[32m[34mkaliuser㉿Kali-Linux[0m[34m[32m)-[[1m[32m[39m~/vm_logs_repo[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004hls ~
+[K[A[4C[36ml[36ms[39m [1m~[0m[1B[K[?1l>[?2004l
+[0m[01;34mcyber_rebuild[0m  [01;34mDownloads[0m  [01;34mpost-nucamp-rebuild[0m  [01;34mturbo-chainsaw[0m  [01;34mvm_logs_repo[0m
+[01;34mDesktop[0m        [01;34mMusic[0m      [01;34mPublic[0m               [01;34mVideos[0m
+[01;34mDocuments[0m      [01;34mPictures[0m   [01;34mTemplates[0m            [01;34mvm_logs[0m
+                                                                             ]0;kaliuser@Kali-Linux: ~/vm_logs_repo
+[0m[27m[24m[J[32m┌──([1m[32m[34mkaliuser㉿Kali-Linux[0m[34m[32m)-[[1m[32m[39m~/vm_logs_repo[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m
