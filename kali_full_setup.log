@@ -1,0 +1,126 @@
+# Kali Linux Setup Log (revised)
+
+This log provides a step-by-step overview of a typical Kali Linux VM setup and initial repository cloning. All non-essential terminal escape codes, formatting, and distractions have been removed for clarity. 
+
+---
+
+**Date:** 2025-08-22  
+**User:** kaliuser  
+**Machine:** Kali-Linux VM
+
+---
+
+## Steps Performed
+
+### 1. Attempt to Change Directory
+
+```bash
+cd ~/vm_logs_repo
+```
+*Error:*  
+`cd: no such file or directory: /home/kaliuser/vm_logs_repo`
+
+*Explanation:*  
+The directory `vm_logs_repo` did not exist yet.
+
+---
+
+### 2. Cloning a GitHub Repository
+
+```bash
+git clone https://github.com/YOURUSERNAME/YOURREPO.git ~/vm_logs_repo
+```
+*Process Output:*
+```
+Cloning into '/home/kaliuser/vm_logs_repo'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: ...
+remote: Compressing objects: ...
+Receiving objects: ...
+Resolving deltas: ...
+```
+*Explanation:*  
+Successfully cloned the target GitHub repository into `~/vm_logs_repo`.
+
+---
+
+### 3. Entering the Cloned Directory
+
+```bash
+cd ~/vm_logs_repo
+```
+*Explanation:*  
+Changed working directory to the newly cloned repository.
+
+---
+
+### 4. Listing Directory Contents
+
+```bash
+ls -a
+```
+*Output:*
+```
+.
+..
+2025-08-11-daily-cybersecurity-practice_Version2.md
+2025-08-12-daily-cybersecurity-practice_Version2.md
+2025-08-13-daily-cybersecurity-practice_Version2.md
+2025-08-14-daily-cybersecurity-practice_Version2.md
+2025-08-15-daily-log_Version4.md
+2025-08-18-kali-update-log.md
+2025-08-20-kali-git-setup.md
+.git
+LICENSE
+README.md
+SSH_key_ubuntu_github
+ubuntu_full_setup.log
+ubuntu_full_setup.md
+week1/
+```
+*Explanation:*  
+Verified the presence of expected files and folders.
+
+---
+
+### 5. Attempt to Document Setup Log
+
+```bash
+echo '```bash' > kali_full_setup.md
+cat ~/kali_full_setup.log >> kali_full_setup.md
+echo '```' >> kali_full_setup.md
+```
+*Error:*  
+`cat: /home/kaliuser/kali_full_setup.log: No such file or directory`
+
+*Explanation:*  
+Attempted to document the setup. The log file did not exist in the home directory at this step.
+
+---
+
+### 6. Listing Home Directory Contents
+
+```bash
+ls ~
+```
+*Output:*
+```
+cyber_rebuild  Downloads  post-nucamp-rebuild  turbo-chainsaw  vm_logs_repo
+Desktop        Music      Public               Videos
+Documents      Pictures   Templates            vm_logs
+```
+*Explanation:*  
+Verified the home directory for the presence of relevant folders.
+
+---
+
+## Summary
+
+- **Repository cloned:** Successfully cloned a GitHub repository to the VM.
+- **Navigation:** Verified and navigated directories as needed.
+- **Documentation attempt:** Tried to consolidate setup commands into a markdown file.
+- **Troubleshooting:** Identified and handled missing file/directory issues.
+
+---
+
+*This log demonstrates familiarity with Linux terminal operations, Git usage, troubleshooting, and basic documentation practices — all valuable skills for technical roles involving system setup, DevOps, or cybersecurity operations.*

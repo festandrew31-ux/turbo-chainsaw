@@ -1,0 +1,138 @@
+# Ubuntu VM Full Setup Guide & Logs
+
+This document provides a clear, step-by-step guide for setting up an Ubuntu VM, including commands used, actions taken, and a cleaned log of package installations and updates.
+
+---
+
+## 1️⃣ System Update
+
+```bash
+# Update and upgrade system
+sudo apt update
+sudo apt upgrade -y
+```
+
+---
+
+## 2️⃣ Install Git
+
+```bash
+sudo apt install git -y
+```
+
+---
+
+## 3️⃣ Configure Git
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+```
+
+---
+
+## 4️⃣ Prepare Log Storage
+
+```bash
+# Create folder for logs
+mkdir -p ~/vm_logs
+cd ~/vm_logs
+
+# Move logs to storage folder
+mv ~/ubuntu_full_setup.log .
+```
+
+---
+
+## 5️⃣ Initialize Git Repository
+
+```bash
+git init
+git branch -M main
+git add ubuntu_full_setup.log ubuntu_full_setup.md
+git commit -m "Ubuntu VM setup and updates log for 2025-08-22"
+```
+
+---
+
+## 6️⃣ Generate SSH Key for GitHub
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+# Follow prompts to save in default location and enter passphrase if desired.
+```
+
+---
+
+## 7️⃣ Add SSH Reference File (Optional)
+
+If you have an SSH reference file, copy it into the repo:
+
+```bash
+cp ~/Desktop/SSH_key_ubuntu_github.txt ./
+git add SSH_key_ubuntu_github.txt
+```
+
+---
+
+## 8️⃣ Add Remote & Push
+
+```bash
+git remote add origin <your-repo-ssh-url>
+git push -u origin main
+```
+
+---
+
+# Cleaned Logs
+
+## Installation & Update Logs
+
+<details>
+<summary>Click to expand full logs</summary>
+
+<pre>
+All packages are up to date.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+# Sample of installed packages
+Install: kerneloops:amd64, openvpn:amd64, fontconfig:amd64, libvulkan1:amd64, telnet:amd64, libneon27-gnutls:amd64, etc.
+
+# Sample of upgraded packages
+Upgrade: thunderbird:amd64, libreoffice-help-pt-br:amd64, libreoffice-help-de:amd64, etc.
+
+# Sample of purged packages
+Purge: libreoffice-l10n-en-gb:amd64, libm17n-0:amd64, libreoffice-l10n-en-za:amd64, cifs-utils:amd64, reiserfsprogs:amd64, etc.
+
+# Package manager log excerpts
+Preparing to unpack .../libperl5.34_5.34.0-3ubuntu1.5_amd64.deb ...
+Unpacking libperl5.34:amd64 ...
+Setting up perl-base ...
+Unpacking apt (2.4.14) over (2.4.13) ...
+Setting up apt (2.4.14) ...
+Generating locales (this might take a while)...
+Generation complete.
+Installing grub to /boot/efi.
+Installation finished. No error reported.
+</pre>
+</details>
+
+---
+
+## Common Issues & Solutions
+
+- **SSH reference file not found**:  
+  If you get `cp: cannot stat ... No such file or directory`, ensure the file exists at the specified location.
+
+- **Remote repository access errors**:  
+  If you see `fatal: 'origin' does not appear to be a git repository`, verify the SSH URL and your SSH key setup.
+
+---
+
+## Notes
+
+- Replace `"Your Name"` and `"your_email@example.com"` with your actual name and email.
+- Replace `<your-repo-ssh-url>` with your repository's SSH URL.
+- You can review the full system log in `ubuntu_full_setup.log` for detailed package actions.
+
+---

@@ -1,0 +1,99 @@
+# Terminal Session: Setting Up Git & Repository (2025-08-19)
+
+## Summary
+This session documents the steps taken to configure Git and work with local and remote repositories on a Kali Linux environment. The actions include updating packages, configuring Git user details, file management, and troubleshooting Git authentication.
+
+---
+
+### 1. System & Environment
+- **OS:** Kali Linux
+- **Terminal:** xterm-256color
+
+---
+
+### 2. System Update
+```bash
+sudo apt update
+```
+- Packages were checked for updates.
+- No packages were upgraded, installed, or removed.
+- Some Python packages listed as no longer required.
+
+---
+
+### 3. Git Installation & Configuration
+- Verified Git installation:
+  ```bash
+  git --version
+  # Output: git version 2.50.1
+  ```
+- Attempted to set global Git config using incorrect syntax, received error messages:
+  - `error: key does not contain a section: festandrew31-ux`
+  - `error: key does not contain a section: festandrew31`
+- Corrected Git config setup:
+  ```bash
+  git config --global user.name "festandrew31-ux"
+  git config --global user.email "festandrew31@gmail.com"
+  ```
+- Verified configuration:
+  ```bash
+  git config --global --list
+  # Output:
+  # user.name=festandrew31-ux
+  # user.email=festandrew31@gmail.com
+  ```
+
+---
+
+### 4. File & Directory Management
+- Created directories for organizing project files:
+  ```bash
+  mkdir -p ~/cyber_rebuild/week1
+  mkdir -p ~/post-nucamp-rebuild/week1
+  ```
+- Copied session file:
+  ```bash
+  cp ~/cyber_rebuild/week1/session_tue.txt ~/post-nucamp-rebuild/week1/
+  ```
+
+---
+
+### 5. Git Repository Operations
+- Attempted to clone a repository using an incorrect URL:
+  ```bash
+  git clone https://github.com/festandrew31-ux/turbo-chainsaw.git
+  # Error: no such file or directory
+  ```
+- Initialized a new Git repository locally:
+  ```bash
+  git init
+  ```
+- Added remote origin:
+  ```bash
+  git remote add origin https://github.com/festandrew31-ux/post-nucamp-rebuild.git
+  ```
+- **Authentication Issue:**
+  - Entered password when prompted, but received:
+    ```
+    remote: Invalid username or token. Password authentication is not supported for Git operations.
+    fatal: Authentication failed for 'https://github.com/festandrew31-ux/post-nucamp-rebuild.git/'
+    ```
+  - **Note:** Modern Git requires use of personal access tokens (PAT) instead of passwords for remote operations.
+
+---
+
+### 6. Troubleshooting
+- Attempted operations in directories that were not Git repositories.
+- Resolved configuration errors and clarified correct commands for future use.
+
+---
+
+## Key Takeaways
+- Correct Git configuration syntax is essential.
+- Use personal access tokens for GitHub authentication.
+- Organize projects with logical directories.
+- Read error messages carefully for troubleshooting.
+
+---
+
+**End of Session**
